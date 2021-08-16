@@ -1,0 +1,179 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-14T16:23:44.874Z",
+        "line": 9,
+        "name": "Cadastrar cliente",
+        "description": "",
+        "id": "cadastrar-novo-cliente;cadastrar-cliente",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24761446300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que acesso o site \"http://advantageonlineshopping.com/#/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://advantageonlineshopping.com/#/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.clienteTeste.que_acesso_o_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11161838600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "acesso o formulario de abertura de conta",
+            "match": {
+              "location": "steps.clienteTeste.acesso_o_formulario_de_abertura_de_conta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 841290900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencher todos os campos obrigatorios",
+            "match": {
+              "location": "steps.clienteTeste.preencher_todos_os_campos_obrigatorios()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2332417800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencher todos os campos nao obrigatorios",
+            "match": {
+              "location": "steps.clienteTeste.preencher_todos_os_campos_nao_obrigatorios()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1181865000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "cliente cadastro com sucesso",
+            "match": {
+              "location": "steps.clienteTeste.cliente_cadastro_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cadastrar"
+          },
+          {
+            "name": "@cadastrar"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-14T16:24:25.550Z",
+        "line": 17,
+        "name": "Realizar login",
+        "description": "",
+        "id": "cadastrar-novo-cliente;realizar-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32080722700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "que acesso o site \"http://advantageonlineshopping.com/#/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://advantageonlineshopping.com/#/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.clienteTeste.que_acesso_o_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3291835800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "acessar a tela de login",
+            "match": {
+              "location": "steps.Teste.acessar_a_tela_de_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9487076800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "preencher login e senha",
+            "match": {
+              "location": "steps.Teste.preencher_login_e_senha()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "login com sucesso",
+            "match": {
+              "location": "steps.Teste.login_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cadastrar"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastrar novo cliente",
+    "description": "Como usuario quero cadastrar um cliente para acessar o site",
+    "id": "cadastrar-novo-cliente",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Keeggo.feature",
+    "tags": [
+      {
+        "name": "@cadastrar",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
